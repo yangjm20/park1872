@@ -1,0 +1,1 @@
+<view><web-view src="{{wxurl}}"></web-view></view>

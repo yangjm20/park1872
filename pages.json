@@ -1,0 +1,99 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "公园1872"
+			}
+		}
+       
+    
+        ,{
+            "path" : "pages/mark/mark",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/community/community",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/sky/sky",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/layout/layout",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+
+	"globalStyle": {
+		"backgroundColor": "#e3e8f3",
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#e3e8f3",
+		"navigationBarTitleText": "公园1872Home",
+		"navigationBarTextStyle": "black"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+
+		"color": "#000000",
+		"selectedColor": "#0000FF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "主页",
+				"iconPath": "/static/images/home.png",
+				"selectedIconPath": "/static/images/home_cli.png"
+
+			},
+			{
+				"pagePath": "pages/mark/mark",
+				"text": "闲置物品",
+				"iconPath": "/static/images/buy.png",
+				"selectedIconPath": "/static/images/buy_cli.png"
+			}, {
+				"pagePath": "pages/community/community",
+				"text": "社区技能",
+				"iconPath": "/static/images/sqq.png",
+				"selectedIconPath": "/static/images/sqq_cli.png"
+			}
+		]
+	}
+}

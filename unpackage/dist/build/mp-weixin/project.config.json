@@ -1,0 +1,30 @@
+{
+    "description": "项目配置文件。",
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
+    "setting": {
+        "urlCheck": false,
+        "es6": false,
+        "postcss": false,
+        "minified": true,
+        "newFeature": true,
+        "bigPackageSizeSupport": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        },
+        "condition": false
+    },
+    "compileType": "miniprogram",
+    "libVersion": "3.2.2",
+    "appid": "wxe353519f7f7bdea3",
+    "projectname": "gongyuan1872",
+    "condition": {},
+    "editorSetting": {
+        "tabIndent": "auto",
+        "tabSize": 4
+    }
+}

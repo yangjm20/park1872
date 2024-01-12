@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mark/mark",
+    "pages/community/community",
+    "pages/sky/sky",
+    "pages/contact/contact",
+    "pages/layout/layout"
+  ],
+  "subPackages": [],
+  "window": {
+    "backgroundColor": "#e3e8f3",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#e3e8f3",
+    "navigationBarTitleText": "公园1872Home",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#0000FF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "/static/images/home.png",
+        "selectedIconPath": "/static/images/home_cli.png"
+      },
+      {
+        "pagePath": "pages/mark/mark",
+        "text": "闲置物品",
+        "iconPath": "/static/images/buy.png",
+        "selectedIconPath": "/static/images/buy_cli.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区技能",
+        "iconPath": "/static/images/sqq.png",
+        "selectedIconPath": "/static/images/sqq_cli.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

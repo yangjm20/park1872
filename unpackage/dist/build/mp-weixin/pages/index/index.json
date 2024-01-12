@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "公园1872",
+  "usingComponents": {
+    "notice": "/components/notice/notice"
+  }
+}
